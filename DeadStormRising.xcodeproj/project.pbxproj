@@ -9,23 +9,39 @@
 /* Begin PBXBuildFile section */
 		522A2A4D252DD8CB008CEBEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A2A4C252DD8CB008CEBEE /* AppDelegate.swift */; };
 		522A2A4F252DD8CB008CEBEE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 522A2A4E252DD8CB008CEBEE /* GameScene.sks */; };
-		522A2A51252DD8CB008CEBEE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 522A2A50252DD8CB008CEBEE /* Actions.sks */; };
 		522A2A53252DD8CB008CEBEE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A2A52252DD8CB008CEBEE /* GameScene.swift */; };
 		522A2A55252DD8CB008CEBEE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A2A54252DD8CB008CEBEE /* GameViewController.swift */; };
 		522A2A58252DD8CB008CEBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522A2A56252DD8CB008CEBEE /* Main.storyboard */; };
 		522A2A5A252DD8CD008CEBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522A2A59252DD8CD008CEBEE /* Assets.xcassets */; };
+		522A2A6A252DE8A1008CEBEE /* TileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 522A2A69252DE8A1008CEBEE /* TileSet.sks */; };
+		522A2A6D252DF66A008CEBEE /* GameItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A2A6C252DF66A008CEBEE /* GameItem.swift */; };
+		522A2A70252DF679008CEBEE /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A2A6F252DF679008CEBEE /* Unit.swift */; };
+		522A2A73252DF687008CEBEE /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A2A72252DF687008CEBEE /* Base.swift */; };
+		522A2A76252E0CDF008CEBEE /* CGPoint+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A2A75252E0CDF008CEBEE /* CGPoint+Additions.swift */; };
+		522A2A79252E1822008CEBEE /* Array+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A2A78252E1822008CEBEE /* Array+Additions.swift */; };
+		522A2A7E252E2912008CEBEE /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 522A2A7B252E2912008CEBEE /* Smoke.sks */; };
+		522A2A7F252E2912008CEBEE /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 522A2A7C252E2912008CEBEE /* Fire.sks */; };
+		522A2A80252E2912008CEBEE /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 522A2A7D252E2912008CEBEE /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		522A2A49252DD8CB008CEBEE /* DeadStormRising.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeadStormRising.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522A2A4C252DD8CB008CEBEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		522A2A4E252DD8CB008CEBEE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		522A2A50252DD8CB008CEBEE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		522A2A52252DD8CB008CEBEE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		522A2A54252DD8CB008CEBEE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		522A2A57252DD8CB008CEBEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		522A2A59252DD8CD008CEBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522A2A5B252DD8CD008CEBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522A2A69252DE8A1008CEBEE /* TileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TileSet.sks; sourceTree = "<group>"; };
+		522A2A6C252DF66A008CEBEE /* GameItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameItem.swift; sourceTree = "<group>"; };
+		522A2A6F252DF679008CEBEE /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		522A2A72252DF687008CEBEE /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		522A2A75252E0CDF008CEBEE /* CGPoint+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Additions.swift"; sourceTree = "<group>"; };
+		522A2A78252E1822008CEBEE /* Array+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Additions.swift"; sourceTree = "<group>"; };
+		522A2A7B252E2912008CEBEE /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
+		522A2A7C252E2912008CEBEE /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		522A2A7D252E2912008CEBEE /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +76,20 @@
 			children = (
 				522A2A4C252DD8CB008CEBEE /* AppDelegate.swift */,
 				522A2A4E252DD8CB008CEBEE /* GameScene.sks */,
-				522A2A50252DD8CB008CEBEE /* Actions.sks */,
 				522A2A52252DD8CB008CEBEE /* GameScene.swift */,
 				522A2A54252DD8CB008CEBEE /* GameViewController.swift */,
+				522A2A6C252DF66A008CEBEE /* GameItem.swift */,
+				522A2A6F252DF679008CEBEE /* Unit.swift */,
+				522A2A72252DF687008CEBEE /* Base.swift */,
+				522A2A75252E0CDF008CEBEE /* CGPoint+Additions.swift */,
+				522A2A78252E1822008CEBEE /* Array+Additions.swift */,
 				522A2A56252DD8CB008CEBEE /* Main.storyboard */,
 				522A2A59252DD8CD008CEBEE /* Assets.xcassets */,
 				522A2A5B252DD8CD008CEBEE /* Info.plist */,
+				522A2A69252DE8A1008CEBEE /* TileSet.sks */,
+				522A2A7C252E2912008CEBEE /* Fire.sks */,
+				522A2A7B252E2912008CEBEE /* Smoke.sks */,
+				522A2A7D252E2912008CEBEE /* spark.png */,
 			);
 			path = DeadStormRising;
 			sourceTree = "<group>";
@@ -127,10 +151,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522A2A6A252DE8A1008CEBEE /* TileSet.sks in Resources */,
 				522A2A58252DD8CB008CEBEE /* Main.storyboard in Resources */,
 				522A2A4F252DD8CB008CEBEE /* GameScene.sks in Resources */,
+				522A2A80252E2912008CEBEE /* spark.png in Resources */,
+				522A2A7F252E2912008CEBEE /* Fire.sks in Resources */,
+				522A2A7E252E2912008CEBEE /* Smoke.sks in Resources */,
 				522A2A5A252DD8CD008CEBEE /* Assets.xcassets in Resources */,
-				522A2A51252DD8CB008CEBEE /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522A2A73252DF687008CEBEE /* Base.swift in Sources */,
+				522A2A79252E1822008CEBEE /* Array+Additions.swift in Sources */,
+				522A2A70252DF679008CEBEE /* Unit.swift in Sources */,
 				522A2A53252DD8CB008CEBEE /* GameScene.swift in Sources */,
+				522A2A76252E0CDF008CEBEE /* CGPoint+Additions.swift in Sources */,
 				522A2A55252DD8CB008CEBEE /* GameViewController.swift in Sources */,
+				522A2A6D252DF66A008CEBEE /* GameItem.swift in Sources */,
 				522A2A4D252DD8CB008CEBEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PTYV272Z4;
 				INFOPLIST_FILE = DeadStormRising/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ua.com.kr.ssh.DeadStormRising;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -304,6 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PTYV272Z4;
 				INFOPLIST_FILE = DeadStormRising/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +345,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ua.com.kr.ssh.DeadStormRising;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
